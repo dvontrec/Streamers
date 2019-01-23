@@ -1,8 +1,17 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
-    return <div>React App</div>;
+    return (
+      <div>
+        <BrowserRouter>
+          <div>
+            <Route path="/" exact component={} />
+          </div>
+        </BrowserRouter>
+      </div>
+    );
   }
 }
 
