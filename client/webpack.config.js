@@ -27,11 +27,15 @@ const config = {
     //path directory where file is saved (saves to absolute current path)
     path: path.resolve(__dirname, 'build'),
     // name of the file with a hash for cache
-    filename: '[name].[chunkhash].js'
+    filename: '[name].[chunkhash].js',
+    // Specifies base path for all assets
+    publicPath: '/'
   },
   // Adds dev server config
   devServer: {
     contentBase: path.join(__dirname, '../build/'),
+    // Redirects 404 errors to index.html
+    historyApiFallback: true,
     host: 'localhost',
     disableHostCheck: true,
     open: true,
