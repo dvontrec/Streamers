@@ -9,6 +9,12 @@
       "title": "Other Stream",
       "description": "Heres a second stream",
       "id": 2
+    },
+    {
+      "title": "Third times the charm",
+      "description": "This stream will have a userID",
+      "userId": "110687946685338945343",
+      "id": 3
     }
   ]
 }
