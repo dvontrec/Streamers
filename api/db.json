@@ -11,10 +11,15 @@
       "id": 2
     },
     {
-      "title": "Third times the charm",
+      "title": "This was edited from the updated patch route",
       "description": "This stream will have a userID",
       "userId": "110687946685338945343",
       "id": 3
+    },
+    {
+      "title": "Test after update",
+      "description": "Description.  ",
+      "id": 4
     }
   ]
 }
