@@ -16,7 +16,7 @@ const StreamDelete = () => {
       StreamDelete
       <Modal
         title="Delete Stream"
-        content="Are you sure you want to delete this stream"
+        content="Are you sure you want to delete this stream?"
         actions={actions}
         onDismiss={() => {
           history.push('/');
